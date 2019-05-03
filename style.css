@@ -21,14 +21,14 @@ input[type="submit"] {
 }
 
 .nProbEmpty, .nProbBad, .nProbOk, .nProbCurrent {
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid #000000;
     border-left: none;
     padding-top: 20px;
     border-radius: 0;
 }
 
 .nTopNavList li:first-child div, .nBottomNavList li:first-child div {
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid #000000;
     margin-left: 20px;
 }
 
@@ -121,7 +121,7 @@ input[type="submit"] {
     width: auto;
     min-width: 100%;
     border: none;
-    background: rgba(255, 255, 255, 1);
+    background: #ffffff;
     min-height: 100vh;
 }
 
@@ -139,6 +139,7 @@ input[type="submit"] {
 body {
     padding: 0;
     margin: 0;
+    background: #ffffff;
 }
 
 .h2-long h2 {
@@ -169,19 +170,19 @@ body {
     padding-left: 20px;
 }
 
-.server_status_on {
+div.server_status_on {
     background: #00e676;
 }
 
-
-.server_status_error {
+div.server_status_error {
     background: #d84315;
 }
 
-.server_status_alarm {
+div.server_status_alarm {
     background: #afb42b;
 }
 
 .server_status_off {
     background: #9e9e9e;
 }
+
