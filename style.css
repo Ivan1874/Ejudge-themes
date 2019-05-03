@@ -20,7 +20,7 @@ input[type="submit"] {
     position: relative;
 }
 
-.nProbEmpty, .nProbBad, .nProbOk, .nProbCurrent {
+.nProbEmpty, .nProbBad, .nProbOk, .nProbCurrent, .nProbTrans {
     border: 1px solid #000000;
     border-left: none;
     padding-top: 20px;
@@ -48,14 +48,22 @@ input[type="submit"] {
     background: #00c853;
 }
 
+.nProbTrans {
+    background: #ffd740;
+}
+
 .nTopNavList {
     margin-top: 30px;
 }
 
-.nProbEmpty a, .nProbBad a, .nProbOk a, .nProbCurrent a {
+.nProbEmpty a, .nProbBad a, .nProbOk a, .nProbCurrent a, .nProbTrans a {
     bottom: 10px;
     color: #ffffff;
     font-weight: bold;
+}
+
+.nProbTrans a {
+    color: #000000;    
 }
 
 .probNav li {
