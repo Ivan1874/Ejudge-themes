@@ -63,7 +63,7 @@ input[type="submit"] {
 }
 
 .nProbTrans a {
-    color: #000000;    
+    color: #000000;
 }
 
 .probNav li {
@@ -153,7 +153,6 @@ input[type="submit"] {
 body {
     margin: 0;
     padding: 0;
-    background-color: #004882;
 }
 
 .h2-long h2 {
@@ -206,7 +205,7 @@ div.server_status_alarm {
     border: none;
 }
 
-select[name="lang_id"] {
+select {
     background-color: #0563af;
     color: white;
     padding: 8px;
@@ -216,7 +215,7 @@ select[name="lang_id"] {
     outline: none;
 }
 
-select[name="lang_id"] option {
+select option {
     padding: 30px;
 }
 
