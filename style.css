@@ -155,12 +155,13 @@ body {
 }
 
 .h2-long h2 {
-    padding: inherit !important;
     font-size: 15px !important;
     background: none !important;
     color: #000000 !important;
     display: inline !important;
     border: none !important;
+    padding: unset !important;
+    margin: unset !important;
 }
 
 * {
