@@ -1,22 +1,15 @@
 input[type="submit"] {
-    font-size: 14px !important;
-    display: inline-block !important;
-    height: 36px !important;
-    min-width: 88px !important;
+    font-size: 12pt !important;
+    min-width: 130px !important;
     padding: 6px 16px !important;
-    line-height: 1.42857 !important;
     text-align: center !important;
-    white-space: nowrap !important;
-    vertical-align: middle !important;
     cursor: pointer !important;
     user-select: none !important;
-    border: 0 !important;
-    border-radius: 2px !important;
-    background: #2196F3 !important;
+    border: 1px solid #000000 !important;
+    background: #03a9f4 !important;
     color: #FFFFFF !important;
-    outline: 0 !important;
     overflow: hidden !important;
-    position: relative !important;
+    font-weight: bold;
 }
 
 .nProbEmpty, .nProbBad, .nProbOk, .nProbCurrent, .nProbTrans {
@@ -26,9 +19,10 @@ input[type="submit"] {
     border-radius: 0 !important;
 }
 
-.nTopNavList li:first-child div, .nBottomNavList li:first-child div {
-    border: 1px solid #000000 !important;
+.nTopNavList li:first-child div, .nBottomNavList li:first-child div, .nTopNavList li.first-rad .nProbEmpty, .nTopNavList li.first-rad .nProbCurrent {
+    border-left: 1px solid #000000 !important;
     margin-left: 20px !important;
+    border-radius: 0 !important;
 }
 
 .nProbEmpty {
