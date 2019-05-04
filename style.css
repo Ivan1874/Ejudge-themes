@@ -17,6 +17,7 @@ input[type="submit"] {
     border-left: none !important;
     padding-top: 20px !important;
     border-radius: 0 !important;
+    font-size: 14pt;
 }
 
 .nTopNavList li:first-child div, .nBottomNavList li:first-child div, .nTopNavList li.first-rad .nProbEmpty, .nTopNavList li.first-rad .nProbCurrent {
@@ -37,6 +38,10 @@ input[type="submit"] {
     background: #0277bd !important;
 }
 
+.nProbCurrent a {
+    font-size: 15pt;
+}
+
 .nProbOk {
     background: #00c853 !important;
 }
@@ -49,7 +54,7 @@ input[type="submit"] {
     margin-top: 30px !important;
 }
 
-.nProbEmpty a, .nProbBad a, .nProbOk a, .nProbCurrent a, .nProbTrans a {
+div.nProbEmpty a, div.nProbBad a, div.nProbOk a, div.nProbCurrent a, div.nProbTrans a {
     bottom: 10px !important;
     color: #ffffff !important;
     font-weight: bold !important;
