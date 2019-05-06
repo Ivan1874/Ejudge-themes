@@ -215,3 +215,19 @@ select {
 select option {
     padding: 30px !important;
 }
+
+div.user_action_item {
+    font-size: 0 !important;
+}
+
+div.user_actions {
+    background: rgb(102, 204, 255) !important;
+    margin: unset !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+div.user_actions table.menu {
+    padding: 10px !important;
+}
+
