@@ -22,7 +22,6 @@ input[type="submit"] {
 
 .nTopNavList li:first-child div, .nBottomNavList li:first-child div, .nTopNavList li.first-rad .nProbEmpty, .nTopNavList li.first-rad .nProbCurrent {
     border-left: 1px solid #000000 !important;
-    margin-left: 20px !important;
     border-radius: 0 !important;
 }
 
@@ -54,6 +53,10 @@ input[type="submit"] {
     margin-top: 30px !important;
 }
 
+.nTopNavList ul, .nBottomNavList ul {
+    margin-left: 30px !important;
+}
+
 div.nProbEmpty a, div.nProbBad a, div.nProbOk a, div.nProbCurrent a, div.nProbTrans a {
     bottom: 10px !important;
     color: #ffffff !important;
@@ -67,6 +70,7 @@ div.nProbEmpty a, div.nProbBad a, div.nProbOk a, div.nProbCurrent a, div.nProbTr
 .probNav li {
     top: 0 !important;
     bottom: 0 !important;
+    height: 32px !important;
 }
 
 #footer {
